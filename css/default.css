@@ -1,5 +1,35 @@
+/* 全局样式 */
+
 body {
     margin: 0;
+    }
+    
+.frame {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.IndexTitle {
+    margin: 40px 0;
+    }
+    
+.IndexTitle > a:link,
+.IndexTitle > a:visited {
+    text-decoration: none;
+    color: rgba(69, 69, 69, 1);
+    font-size: 18px;
+    font-family: Helvetica '微软雅黑';
+    line-height: 18px;
+    }
+    
+.IndexTitle > a:hover {
+    color: #de553b;
+    }
+    
+.IndexTitle > a > span {
+    padding-left: 20px;
     }
 
 /* 顶部导航 */
@@ -14,7 +44,7 @@ body {
     margin: 12px 40px;
     }
 
-/* 一级菜单样式 */
+/* 顶部导航一级菜单样式 */
 
 .TopNav,
 .TapNav > ul {
@@ -83,7 +113,7 @@ body {
     background-color: gray;
     }
     
-/* 二级菜单样式 */
+/* 顶部导航二级菜单样式 */
 
 .TopNav > ul ul {
     visibility: hidden;
@@ -131,5 +161,42 @@ body {
     border-left: 4px solid #de553b;
     background-color: black;
     color: white;
+    }
+    
+/* 摄影师列表样式 */
+
+.IndexPhotographyList {
+    margin-top: 40px;
+    }
+
+.IndexPhotographyList > ul li {
+    list-style: none;
+    line-height: 14px;
+    padding: 0;
+    margin: 0;
+    }
+    
+.IndexPhotographyList > ul > li {
+    display: block;
+    float: left;
+    width: 300px;
+    }
+
+.IPLImg {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    -moz-radial-gradient: 100%;
+    border: 8px solid #de553b;
+    overflow: hidden;
+    z-index: -1;
+    bor
+    }
+    
+.IndexPhotographyList h4 {
+    color: rgba(69, 69, 69, 1);
+    font-size: 18px;
+    font-family: Helvetica '微软雅黑';
+    line-height: 18px;
     }
     
