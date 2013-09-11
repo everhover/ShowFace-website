@@ -9,17 +9,21 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-}
+    }
 
 .IndexTitle {
     margin: 40px 0;
+    height: 24px;
+    border-top: 1px solid rgba(233, 233, 233, 1);
+    padding-top: 40px;
+    text-align: center;
     }
     
 .IndexTitle > a:link,
 .IndexTitle > a:visited {
     text-decoration: none;
     color: rgba(69, 69, 69, 1);
-    font-size: 18px;
+    font-size: 24px;
     font-family: Helvetica '微软雅黑';
     line-height: 18px;
     }
@@ -48,7 +52,7 @@ body {
 
 .TopNav,
 .TapNav > ul {
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(255, 255, 255, 1);
     font-family: Helvetica;
     z-index: -1;
     }
@@ -74,7 +78,7 @@ body {
     }
     
 .TopNav > ul {
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(255, 255, 255, 1);
     margin: 0;
     padding: 0;
     position: relative;
@@ -110,7 +114,7 @@ body {
     
 .TopNav > ul > li.active > a,
 .TopNav > ul > li > a:active {
-    background-color: gray;
+    background-color: #FFFFFF;
     }
     
 /* 顶部导航二级菜单样式 */
@@ -119,7 +123,7 @@ body {
     visibility: hidden;
     position: absolute;
     top: 65px;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(255, 255, 255, 1);
     margin: 0;
     padding: 0;
     z-index: -1;
@@ -163,10 +167,38 @@ body {
     color: white;
     }
     
+/* 作品列表 */
+
+.IndexWorksList > ul li {
+    list-style: none;
+    display: inline;
+    }
+    
+.IndexWorksList > ul {
+    padding: 0;
+    }
+    
+.IndexWorksList > ul img {
+    height: 160px;
+    width: 240px;
+    border: 3px solid rgba(255, 255, 255, 1);
+    margin: 0;
+    -webkit-transition: color .25s linear;
+    transition: all .5s ;    
+    }
+  
+.IndexWorksList > ul img:hover {
+    border: 3px solid rgba(221, 85, 58, 1);
+    border-radius: 2%;
+    } 
+
+    
 /* 摄影师列表样式 */
 
 .IndexPhotographyList {
     margin-top: 40px;
+    height: 300px;
+    margin-bottom: 20px;
     }
 
 .IndexPhotographyList > ul li {
@@ -185,18 +217,72 @@ body {
 .IPLImg {
     height: 160px;
     width: 160px;
+    border: 8px solid #de553b;
     border-radius: 100%;
     -moz-radial-gradient: 100%;
-    border: 8px solid #de553b;
-    overflow: hidden;
-    z-index: -1;
-    bor
+    }
+    
+.IndexPhotographyList a {
+    height: 30px;
+    width: auto;
+    margin: 0;
     }
     
 .IndexPhotographyList h4 {
     color: rgba(69, 69, 69, 1);
     font-size: 18px;
     font-family: Helvetica '微软雅黑';
+    padding-top: 15px;
+    margin: 0;
+    }
+    
+.IndexPhotographyList h6 {
+    color:rgba(193, 193, 193, 1);
+    font-size: 16px;
+    font-family: Helvetica '微软雅黑';
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    }
+    
+.IndexPhotographyList span {
+    color:rgba(193, 193, 193, 1);
+    font-size: 14px;
+    font-family: Helvetica '微软雅黑';
+    padding-top: 15px;
+    margin-top: 15px;
     line-height: 18px;
     }
+    
+/* 服务列表样式 */
+
+.IndexServiceList > ul > li {
+    list-style: none;
+    display: inline;
+    height: auto;
+    width: 300px;
+    float: left;
+    padding-right: 20px;
+    }
+    
+.IndexServiceList > ul > li > a,    
+.IndexServiceList > ul > li > a:visited {
+    display: block;
+    height: auto;
+    width: 300px;
+    background-color: rgba(233, 233, 233, 1);
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: rgba(64, 64, 64, 1);
+    font-family: Helvetica '微软雅黑';
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;    
+    }
+    
+.IndexServiceList > ul > li > a:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(221, 85, 58, 1);
+    }     
     
