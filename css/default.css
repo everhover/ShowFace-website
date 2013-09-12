@@ -39,20 +39,23 @@ body {
 /* 顶部导航 */
 
 .TopNavLogo > img {
-    display: inline;
-    float: left;
-    z-index: 9;
-    position: relative;
     height: 40px;
     width: 91px;
-    margin: 12px 40px;
+    margin: 12px 26px;
     }
+
+.TopNavPhoneNumber > img {
+    margin-top: -1px;
+    margin-left: 45px;
+    float: right;
+    }
+
 
 /* 顶部导航一级菜单样式 */
 
 .TopNav,
 .TapNav > ul {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
     font-family: Helvetica;
     z-index: -1;
     }
@@ -96,7 +99,7 @@ body {
     }
     
 .TopNav > ul > li > a {
-    padding: 23px 26px;
+    padding: 15px 26px;
     display: block;
     color: black;
     line-height: 18px;
@@ -122,8 +125,8 @@ body {
 .TopNav > ul ul {
     visibility: hidden;
     position: absolute;
-    top: 65px;
-    background-color: rgba(255, 255, 255, 1);
+    top: 48px;
+    background-color: rgba(247, 247, 247, 1);
     margin: 0;
     padding: 0;
     z-index: -1;
@@ -179,17 +182,21 @@ body {
     }
     
 .IndexWorksList > ul img {
-    height: 160px;
-    width: 240px;
-    border: 3px solid rgba(255, 255, 255, 1);
-    margin: 0;
+    height: 210px;
+    width: 315px;
+    margin: 5px;
     -webkit-transition: color .25s linear;
-    transition: all .5s ;    
+    transition: all .5s ;
+    opacity: 0.6;
+    -moz-opacity: 0.6;    
     }
   
 .IndexWorksList > ul img:hover {
-    border: 3px solid rgba(221, 85, 58, 1);
-    border-radius: 2%;
+    -moz-box-shadow:0 8px 6px -6px #000000;
+    -webkit-box-shadow:0 8px 6px -6px #000000;
+    box-shadow:0 8px 6px -6px #000000;
+    opacity: 1;
+    -moz-opacity: 1;
     } 
 
     
@@ -258,11 +265,10 @@ body {
 
 .IndexServiceList > ul > li {
     list-style: none;
-    display: inline;
+    display: inline-block;
     height: auto;
     width: 300px;
-    float: left;
-    padding-right: 20px;
+    padding-right: 10px;
     }
     
 .IndexServiceList > ul > li > a,    
@@ -285,4 +291,26 @@ body {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(221, 85, 58, 1);
     }     
+
+/* 联系我们列表 */
+
+.IndexContactUs > ul li {
+    list-style: none;
+    display: inline-block;
+    }
     
+.IndexSnsLogo {
+    margin-left: 35px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    -webkit-transition: color .25s linear;
+    transition: all .5s ;
+    }    
+    
+.IndexSnsLogo:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    -moz-box-shadow:0 8px 6px -6px #000000;
+    -webkit-box-shadow:0 8px 6px -6px #000000;
+    box-shadow:0 8px 6px -6px #000000;
+    }
