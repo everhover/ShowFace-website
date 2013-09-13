@@ -168,6 +168,9 @@ body {
     border-left: 4px solid #de553b;
     background-color: black;
     color: white;
+    -moz-transform: all .5s;
+    -webkit-transition: all .5s;
+    transform: all .5s;
     }
     
 /* 作品列表 */
@@ -185,7 +188,8 @@ body {
     height: 210px;
     width: 315px;
     margin: 5px;
-    -webkit-transition: color .25s linear;
+    -moz-transform: all .5s;
+    -webkit-transition: all .5s;
     transition: all .5s ;
     opacity: 0.6;
     -moz-opacity: 0.6;    
@@ -303,7 +307,8 @@ body {
     margin-left: 35px;
     opacity: 0.6;
     -moz-opacity: 0.6;
-    -webkit-transition: color .25s linear;
+    -moz-transform: all .5s;
+    -webkit-transition: all .5s;
     transition: all .5s ;
     }    
     
@@ -313,4 +318,63 @@ body {
     -moz-box-shadow:0 8px 6px -6px #000000;
     -webkit-box-shadow:0 8px 6px -6px #000000;
     box-shadow:0 8px 6px -6px #000000;
+    }
+    
+.IndexContactUs > ul > li > h4 {
+    font-family: Helvetica '微软雅黑';
+    font-size: 14px;
+    color: rgba(68, 68, 68, 1);
+    line-height: 18px;
+    margin-left: 40px;
+    }    
+    
+.IndexContactUs > ul > li > h1 {
+    font-family: Helvetica '微软雅黑';
+    font-size: 24px;
+    color:rgba(220, 85, 57, 1);
+    line-height: 28px;
+    margin-left: 40px;
+    }    
+    
+.IndexContactUs > ul > li > img {
+    margin-left: 40px;
+    -moz-box-shadow:0 8px 6px -6px #000000;
+    -webkit-box-shadow:0 8px 6px -6px #000000;
+    box-shadow:0 8px 6px -6px #000000;
+    }
+    
+/* 页尾 */
+
+footer {
+    width: 1000px;
+    height: auto;
+    border-top: 1px solid rgba(233, 233, 233, 1); 
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;   
+    }
+    
+footer > ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 100px;
+    }
+    
+footer a:link,
+footer a:visited {
+    text-decoration: none;
+    color:rgba(193, 193, 193, 1);
+    font-family: Helvetica '微软雅黑';
+    }
+    
+footer a:hover {
+    color: rgba(69, 69, 69, 1);
+    }
+    
+footer h1 {    
+    font-size: 18px;
+    }
+    
+footer h2 {
+    font-size: 14px;
     }
