@@ -1,0 +1,123 @@
+/* 框架部分 */
+.LeftFrame {
+    width:300px;
+    height:auto;
+    position: fixed;
+    margin-left: 0;
+    float: left;
+    }
+    
+/* 左边栏部分 */    
+.LeftFrame img,
+.LeftFrame ul,
+.LeftFrame li {
+    list-style: none;
+    }
+    
+.LeftFrame > div > img {
+    float: right;
+    margin: 20px 0 20px 10px;
+    }
+    
+.LeftFrame > div > div > a:link,
+.LeftFrame > div > div > a:visited {
+    width: 200px;
+    line-height: 30px;
+    float: right;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: Helvetica '微软雅黑';
+    color: rgba(221, 85, 58, 1);
+    }
+    
+.LeftFrame > div > div > a > span {
+    float: right;
+    }
+    
+.LeftFrame > div > ul > li {
+    display: block;
+    position: relative;
+    }
+    
+.WorksMenu > ul > li > a:link,
+.WorksMenu > ul > li > a:visited {
+    width: 200px;
+    line-height: 30px;
+    padding: 5px 10px;
+    float: right;
+    text-decoration: none;
+    color: rgba(193, 193, 193, 1);
+    font-family: Helvetica '微软雅黑';
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    -moz-transform: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s ;
+    }
+    
+.WorksMenu > ul > li > a:hover {
+    border-bottom: 1px solid rgba(221, 85, 58, 1);
+    color: rgba(64, 64, 64, 1);
+    }
+    
+.WorksMenu > ul > li > a > span {
+    float: right;
+    } 
+    
+.BackButton > a:link,
+.BackButton > a:visited {
+    width: 200px;
+    line-height: 30px;
+    float: right;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-family: Helvetica '微软雅黑';
+    color: rgba(193, 193, 193, 1);
+    }
+
+.BackButton > a:hover {
+    color: rgba(221, 85, 58, 1);
+    }
+    
+.BackButton > a > span {
+    float: right;
+    }
+    
+.IndexWorksList > ul li {
+    list-style: none;
+    display: inline;
+    }
+    
+/* 右边栏部分 */
+.RightFrame {
+    width: 900px;
+    float: left;
+    margin: 0 0 0 320px;
+    }
+    
+.RightFrame ul li {
+    list-style: none;
+    display: inline-block;
+    }
+        
+.WorksList > ul {
+    padding: 0;
+    }
+    
+.WorksList > ul img {
+    height: 167px;
+    width: 250px;
+    margin: 5px;
+    -moz-transform: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s ;
+    opacity: 0.6;
+    -moz-opacity: 0.6;    
+    }
+  
+.WorksList > ul img:hover {
+    -moz-box-shadow:0 8px 6px -6px #000000;
+    -webkit-box-shadow:0 8px 6px -6px #000000;
+    box-shadow:0 8px 6px -6px #000000;
+    opacity: 1;
+    -moz-opacity: 1;
+    }

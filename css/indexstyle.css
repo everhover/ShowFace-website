@@ -1,0 +1,170 @@
+/* 作品列表 */
+
+.IndexWorksList > ul li {
+    list-style: none;
+    display: inline;
+    }
+    
+.IndexWorksList > ul {
+    padding: 0;
+    }
+    
+.IndexWorksList > ul img {
+    height: 210px;
+    width: 315px;
+    margin: 5px;
+    -moz-transform: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s ;
+    opacity: 0.6;
+    -moz-opacity: 0.6;    
+    }
+  
+.IndexWorksList > ul img:hover {
+    -moz-box-shadow:0 8px 6px -6px #000000;
+    -webkit-box-shadow:0 8px 6px -6px #000000;
+    box-shadow:0 8px 6px -6px #000000;
+    opacity: 1;
+    -moz-opacity: 1;
+    } 
+
+    
+/* 摄影师列表样式 */
+
+.IndexPhotographyList {
+    margin-top: 40px;
+    height: 300px;
+    margin-bottom: 20px;
+    }
+
+.IndexPhotographyList > ul li {
+    list-style: none;
+    line-height: 14px;
+    padding: 0;
+    margin: 0;
+    }
+    
+.IndexPhotographyList > ul > li {
+    display: block;
+    float: left;
+    width: 300px;
+    }
+
+.IPLImg {
+    height: 160px;
+    width: 160px;
+    border: 8px solid #de553b;
+    border-radius: 100%;
+    -moz-radial-gradient: 100%;
+    }
+    
+.IndexPhotographyList a {
+    height: 30px;
+    width: auto;
+    margin: 0;
+    }
+    
+.IndexPhotographyList h4 {
+    color: rgba(69, 69, 69, 1);
+    font-size: 18px;
+    font-family: Helvetica '微软雅黑';
+    padding-top: 15px;
+    margin: 0;
+    }
+    
+.IndexPhotographyList h6 {
+    color:rgba(193, 193, 193, 1);
+    font-size: 16px;
+    font-family: Helvetica '微软雅黑';
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    }
+    
+.IndexPhotographyList span {
+    color:rgba(193, 193, 193, 1);
+    font-size: 14px;
+    font-family: Helvetica '微软雅黑';
+    padding-top: 15px;
+    margin-top: 15px;
+    line-height: 18px;
+    }
+    
+/* 服务列表样式 */
+
+.IndexServiceList > ul > li {
+    list-style: none;
+    display: inline-block;
+    height: auto;
+    width: 300px;
+    padding-right: 10px;
+    }
+    
+.IndexServiceList > ul > li > a,    
+.IndexServiceList > ul > li > a:visited {
+    display: block;
+    height: auto;
+    width: 300px;
+    background-color: rgba(233, 233, 233, 1);
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: rgba(64, 64, 64, 1);
+    font-family: Helvetica '微软雅黑';
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;    
+    }
+    
+.IndexServiceList > ul > li > a:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(221, 85, 58, 1);
+    }     
+
+/* 联系我们列表 */
+
+.IndexContactUs > ul li {
+    list-style: none;
+    display: inline-block;
+    }
+    
+.IndexSnsLogo {
+    margin-left: 35px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    -moz-transform: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s ;
+    }    
+    
+.IndexSnsLogo:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    -moz-box-shadow:0 8px 6px -6px #000000;
+    -webkit-box-shadow:0 8px 6px -6px #000000;
+    box-shadow:0 8px 6px -6px #000000;
+    }
+    
+.IndexContactUs > ul > li > h4 {
+    font-family: Helvetica '微软雅黑';
+    font-size: 14px;
+    color: rgba(68, 68, 68, 1);
+    line-height: 18px;
+    margin-left: 40px;
+    }    
+    
+.IndexContactUs > ul > li > h1 {
+    font-family: Helvetica '微软雅黑';
+    font-size: 24px;
+    color:rgba(220, 85, 57, 1);
+    line-height: 28px;
+    margin-left: 40px;
+    }    
+    
+.IndexContactUs > ul > li > img {
+    margin-left: 40px;
+    -moz-box-shadow:0 8px 6px -6px #000000;
+    -webkit-box-shadow:0 8px 6px -6px #000000;
+    box-shadow:0 8px 6px -6px #000000;
+    }
+  
