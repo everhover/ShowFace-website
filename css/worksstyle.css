@@ -27,11 +27,16 @@
     padding: 10px 10px;
     font-size: 20px;
     font-family: Helvetica '微软雅黑';
-    color: rgba(221, 85, 58, 1);
+    color: rgba(153, 150, 140, 1);
     }
+    
+.LeftFrame > div > div > a:hover {
+    color: rgba(221, 85, 58, 1);
+    }    
     
 .LeftFrame > div > div > a > span {
     float: right;
+    font: 23px/24px Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;
     }
     
 .LeftFrame > div > ul > li {
@@ -46,7 +51,7 @@
     padding: 5px 10px;
     float: right;
     text-decoration: none;
-    color: rgba(193, 193, 193, 1);
+    color: rgba(153, 150, 140, 1);
     font-family: Helvetica '微软雅黑';
     border-bottom: 1px solid rgba(255, 255, 255, 1);
     -moz-transform: all .5s;
@@ -110,8 +115,8 @@
     -moz-transform: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s ;
-    opacity: 0.6;
-    -moz-opacity: 0.6;    
+    opacity: 1;
+    -moz-opacity: 1;    
     }
   
 .WorksList > ul img:hover {

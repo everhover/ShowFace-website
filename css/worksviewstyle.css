@@ -1,0 +1,53 @@
+/* 摄影师列表部分 */
+.is-worksview-photography-list {
+    float: right;
+    width: auto;
+    height: 100%;
+    color: rgba(69, 69, 69, 1);
+    }
+
+.is-worksview-photography-list li {
+    padding: 0 0 10px 0;
+    font: 14px/16px Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;
+    color: rgba(153, 150, 140, 1);
+    }
+
+.is-worksview-photography-list li a:link,
+.is-worksview-photography-list li a:visited {
+    text-decoration: none;
+    color: rgba(153, 150, 140, 1);
+    }
+
+.is-worksview-photography-list li a:hover {
+    color: rgba(221, 85, 58, 1);
+    }
+
+.is-worksview-photography-list > ul > li > img {
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px 20px 0;
+    border: 5px solid rgba(239, 232, 217, 1);
+    border-radius: 100%;
+    }
+    
+/* 摄影师列表部分 END */
+
+/* SNS 链接列表部分 */
+
+.is-sns-list {
+    margin: 0 10px 0 0;
+    float: right;
+    width: auto;
+    height: auto;
+    }
+
+.is-sns-list li {
+    float: right;
+    }
+
+.is-sns-list img {
+    margin: 0 0 0 5px;
+    }
+
+/* SNS 链接立表部分 END */

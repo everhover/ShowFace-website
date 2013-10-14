@@ -1,0 +1,83 @@
+/* 摄影师介绍框架部分 */
+
+.is-worker-info {
+    margin: 20px 0 20px 40px;
+    float: left;
+    width: auto;
+    height: auto;
+    }
+
+.is-worker-info ul {
+    }
+    
+.is-worker-info ul a,
+.is-worker-info ul span, 
+.is-worker-info ul p {
+    float: left;
+    margin: 0 0 0 40px;
+    }
+    
+.is-worker-info > ul > li {
+    float: left;
+    width: 80%;
+    }
+    
+.is-worker-info > ul > li > ul > li {
+    display: inline-block;
+    float: left;
+    margin: 10px 0 10px 0 ;
+    padding: 0;
+    width: 200px;
+    }
+    
+.is-worker-info > ul > li > ul > li > a  {
+    margin: 0;
+    float: left;
+    padding: 0;
+    }
+
+/* 摄影师介绍框架部分 END */
+
+/* 摄影师相片处理部分 */
+
+.is-worker-pic {
+    margin: 15px 0;
+    float: left;
+    width: 120px;
+    height: 120px;
+    border: 4px solid rgba(239, 232, 217, 1);
+    border-radius: 100%;
+    }
+    
+.is-worker-workslist {
+    padding: 0;
+    float: left;
+    width: 190px;
+    }
+
+/* 摄影师相片处理部分 END */
+
+/* 摄影师文字介绍处理部分 */
+
+.is-worker-info ul li a:link,
+.is-worker-info ul li a:visited {
+    font: 20px/1.4 Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;
+    text-decoration: none;
+    color: rgba(153, 150, 140, 1);
+    }
+    
+.is-worker-info ul li a:hover {
+    color: rgba(221, 85, 58, 1);
+    }
+    
+.is-worker-info ul li span {
+    font: 16px/28px Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;
+    color: rgba(153, 150, 140, 1);
+    }
+
+.is-worker-info ul li p {
+    font: 14px/18px Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;
+    color: rgba(153, 150, 140, 1);
+    }
+
+/* 摄影师文字介绍处理部分 END */
